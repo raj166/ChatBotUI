@@ -1,0 +1,14 @@
+
+ <link rel="stylesheet" href="style.css">
+
+<form method="GET" >
+<label>Enter a date and time for your party booking:</label>
+<input class = "date_selection", type="datetime-local" name="date" value="2017-06-01T08:30">
+<button type="submit", onclick="myFunction" >Select</button>
+</form>
+<script>
+function myFunction() {
+  var date = document.getElementById("date").value;
+  console.log(date)
+}
+</script>
